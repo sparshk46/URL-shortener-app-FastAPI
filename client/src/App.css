@@ -1,0 +1,103 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ShortenForm {
+  margin-bottom: 20px;
+}
+
+.ShortenForm form {
+  display: flex;
+}
+
+.ShortenForm input[type="url"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.ShortenForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ShortenForm button:hover {
+  background-color: #0056b3;
+}
+
+.ShortenForm p {
+  font-size: 16px;
+}
+
+.ShortenedURLs h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ShortenedURLs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ShortenedURLs li {
+  margin-bottom: 10px;
+}
+
+.ShortenedURLs a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ShortenedURLs a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.shortened-url {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.copy-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
